@@ -1,0 +1,121 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    min-height:100hv;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: rgb(245, 168, 168);
+}
+.container
+{
+    position:relative;
+    max-width:900px;
+    width:100%;
+    border-radius:6px;
+    padding:30px;
+    margin:0 15px;
+    background-color: rgb(247, 246, 245);
+    box-shadow:0 5px 10px rgba(0,0,0,0.1)
+}
+.container header{
+    position:relative;
+    font-size:20px;
+    font-weight:600;
+    color:#333;
+    
+}
+.container header::before{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    height:3px;
+    width:27px;
+    background-color: blue;
+    border-radius:8px;
+
+}
+.container form{
+    position:relative;
+    min-height:490px;
+    margin-top:16px;
+    background-color: rgb(235, 239, 243);
+}
+.container form .details
+{
+    margin-top:30px;
+
+} 
+.container form .Academic.Academic.Details
+{
+    margin-top:30px;
+
+} 
+.container form .title{
+    display:block;
+    margin-bottom:8px;
+    font-size:16px;
+    font-weight:500;
+    margin:6px 0;
+    color:black;
+}
+.container form .fields
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+.container form .input-field
+{
+    display:flex;
+     width:250px;
+    flex-direction:column;
+    margin:4px 0;
+}
+.input-field label
+{
+    font-size:12px;
+    font-weight:500;
+    color:black;
+
+}
+.input-field input,select 
+{
+outline:none;
+font-size:14px;
+font-weight:400px;
+color:#333;
+padding:0 15px;
+border:1px  solid #aaa; 
+height:42px;
+margin: 8px 0;
+border-radius:5px;
+
+}
+.input-field input:is(:focus, :valid)
+{
+    box-shadow:0 3px 6px rgba(0,0,0,0.13);
+
+}
+.input-field  input[type="date"]:valid
+{
+    color:#707070;
+}
+.reg
+{
+    height:50px;
+    margin:45px 0;
+    font-size:15px;
+    width:100%;
+    background-color: rgb(245, 168, 168);
+    border:none;
+}
+
